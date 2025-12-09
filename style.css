@@ -1,0 +1,45 @@
+
+body {
+    background-color: lightpink;
+    color: black;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+body.dark-theme{
+	background-color:#333;
+	color:white;
+}
+.hidden{
+	display: none;
+}
+
+#profileImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid deeppink;
+}
+
+button {
+    background: hotpink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: DeepPink;
+}
+body.dark-theme button {
+    background: #555;
+}
+body.dark-theme button:hover {
+    background: #777
